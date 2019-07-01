@@ -1,0 +1,117 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>Pet diy toys - צרו קשר</title>
+    <meta name="description" content="צרו עימנו קשר" />
+    <meta name="keywords" content="contact, pets, toys, diy" />
+    <meta name="author" content="Ortal Kashi, Merav Cohen, Peleg Kremer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="styles/fontawesome/css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav role="navigation" aria-label="main menu animals">
+            <img src="images/logo.png" alt="logo" height="40" width="200" />
+            <ul>
+                <li><a href="#main-content">דלגו לתוכן המרכזי</a></li>
+                <li><a href=dog.html>כלבים</a></li>
+                <li><a href="" class="inactive">חתולים</a></li>
+                <li><a href="" class="inactive">תוכים</a></li>
+                <li><a href=rabbit.html>ארנבים</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="topbg" id="contacttop"></div>
+
+
+    <div id="about_us" class="container">
+        <div class="breadcrumb_icon" id="breadcrumb_icon_about"></div>
+        <ul class="breadtxt">
+            <li><a href=index.html>בית</a></li>
+            <li>צרו קשר</li>
+        </ul>
+        <div role="main" id="main-content">
+            <h1>צרו קשר</h1>
+
+            <section id="contact_form">
+                <p>אם יש לכם שאלות או הערות, נשמח לשמוע מכם.</p>
+                <p class="required" id="must">* שדה חובה</p>
+                <form>
+                    <input type="hidden" id="myEmail" name="name" value="nl.merav@gmail.com">
+
+                    <label for="FirstName">
+                        <span class="required">*</span> שם פרטי:
+                        <br />
+                        <input type="text" id="FirstName" placeholder="הכניסו שם פרטי" aria-required="true" />
+                    </label>
+                    <br />
+                    <label for="LastName">
+                        <span class="required">*</span> שם משפחה:
+                        <br />
+                        <input type="text" id="LastName" placeholder="הכניסו שם משפחה" aria-required="true" />
+                    </label>
+                    <br />
+                    <label for="Email">
+                        <span class="required">*</span> אי-מייל:
+                        <br />
+                        <input type="text" id="Email" placeholder="הכניסו כתובת אי-מייל:" aria-required="true" required />
+                    </label>
+                    <br />
+                    <label for="myMS">
+                        <span class="required">*</span> הקלידו את הודעתכם:
+                        <br />
+                        <textarea id="myMS" aria-required="true"></textarea>
+                    </label>
+                    <br />
+                    <input type="submit" id="Send" value="שליחה">
+
+                    <div id="feedback"></div>
+
+                </form>
+
+            </section>
+        </div>
+    </div>
+    <footer class="page-footer">
+        <div class="container">
+            <nav id="bottom_nav" role="navigation" aria-label="about the website menu ">
+                <ul>
+                    <li> <a href=webmap.html> מפת אתר </a> </li>
+                    <li> <a href=about.html> אודות </a> </li>
+                    <li> <a href=contact.html class="clicked"> צרו קשר </a> </li>
+                </ul>
+            </nav>
+
+            <div class="credit" role="contentinfo">
+                <div class="credit">
+                    Ball&bone icon is made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+                </div>
+                <div class="credit">
+                    Animal heads are made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+                </div>
+                <div class="credit">
+                    Other toy illustrations (mouse, yellow toy) are drawn by Merav Cohen.
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <hr>
+
+</body>
+</html>

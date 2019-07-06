@@ -1259,7 +1259,12 @@ h1 {
     margin: 30px;
     text-align: right;
 }
-
+.digit_r{
+    color:#6622cc;
+}
+.digit_d{
+    color:#328547;
+}
 .inactivemap {
     cursor: not-allowed;
     color: lightgrey;
